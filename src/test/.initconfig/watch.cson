@@ -1,0 +1,45 @@
+###
+
+grunt-initconfig
+https://github.com/pismute/grunt-initconfig
+
+Copyright (c) 2013 Changwoo Park
+Licensed under the MIT license.
+
+###
+
+{
+  watch:
+    gruntfile:
+      files: '<%= coffeelint.gruntfile.src %>'
+      tasks: [
+        'coffeelint:gruntfile'
+      ]
+    jsTasks:
+      files: '<%= jshint.tasks.src %>'
+      tasks: [
+        'jshint:tasks'
+        'test'
+      ]
+    jsTest:
+      files: '<%= jshint.test.src %>'
+      tasks: [
+        'jshint:test'
+        'test'
+      ]
+    coffeeTasks:
+      files: '<%= coffeelint.tasks.src %>'
+      tasks: [
+        'coffeelint:tasks'
+        'coffee:tasks'
+        'test'
+      ]
+    coffeeTest:
+      files: '<%= coffeelint.test.src %>'
+      tasks: [
+        'coffeelint:test'
+        'coffee:test'
+        'test'
+      ]
+}
+

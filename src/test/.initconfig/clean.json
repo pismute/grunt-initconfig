@@ -1,0 +1,11 @@
+{
+  "clean": [
+    "out/",
+    "tasks/",
+    "*.js",
+    "*.js.map",
+    "src/**/*.js",
+    "src/**/*.js.map"
+  ]
+}
+

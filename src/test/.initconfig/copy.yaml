@@ -1,0 +1,23 @@
+#
+# grunt-initconfig
+# https://github.com/pismute/grunt-initconfig
+#
+# Copyright (c) 2013 Changwoo Park
+# Licensed under the MIT license.
+#
+
+copy:
+  tasks:
+    files:
+      - expand: true
+        cwd: src/tasks
+        src:
+          - '**/*.js'
+        dest: tasks/
+  test:
+    files:
+      - expand: true
+        cwd: src/test
+        src:
+          - '**/*.js'
+        dest: out/test

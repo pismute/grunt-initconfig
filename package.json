@@ -1,0 +1,50 @@
+{
+  "name": "grunt-initconfig",
+  "description": "Conventionally init your configurations",
+  "version": "0.0.1",
+  "homepage": "https://github.com/pismute/grunt-initconfig",
+  "author": {
+    "name": "Changwoo Park",
+    "email": "pismute@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pismute/grunt-initconfig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pismute/grunt-initconfig/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pismute/grunt-initconfig/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.coffee",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "cson": "~1.4.2",
+    "mdconf": "0.0.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.5.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-coffeelint": "~0.0.7",
+    "grunt-simple-mocha": "~0.4.0",
+    "should": "~1.2.2",
+    "grunt": "~0.4.1",
+    "matchdep": "~0.1.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "grunt initconfig"
+  ]
+}
