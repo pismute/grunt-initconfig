@@ -28,7 +28,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "cson": "~1.4.2",
+    "cson": "~3.0.2",
     "mdconf": "0.0.2"
   },
   "devDependencies": {
